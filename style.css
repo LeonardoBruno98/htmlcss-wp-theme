@@ -2,3 +2,94 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+body{
+  background-image: url(https://i.pinimg.com/originals/25/59/6b/25596b6890d93d778a12856692e20a83.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container{
+  width:1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.header{
+  width:250px;
+  height: 100px;
+  position: relative;
+  margin: auto;
+}
+
+.inizio{
+  border: 10px solid antiquewhite;
+}
+
+h1{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: 30px;
+  color: antiquewhite;
+}
+
+p:hover{
+  color:indianred;
+}
+
+#sottotitolo{
+margin-bottom: 20px;
+color: ghostwhite;
+font-family: cursive;
+}
+
+.liste {
+  float: left;
+  margin:20px;
+  color: antiquewhite;
+}
+
+.navigazione{
+  clear: both;
+  content:'';
+  display: table;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  border: 7px solid antiquewhite;
+  margin-top: 10px;
+}
+
+.blocco1{
+  float: left;
+  width: 31%;
+  background-color: antiquewhite;
+  margin: 10px;
+  padding: 5px;
+}
+
+.main{
+ text-align: center;
+}
+
+.main:after{
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.footer{
+  position: relative;
+  margin-bottom: 30px;
+  border: 10px solid antiquewhite;
+  text-align: center;
+}
+
+#fine{
+  font-family: cursive;
+  color: beige;
+}
